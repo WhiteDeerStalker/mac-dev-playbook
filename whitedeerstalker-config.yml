@@ -33,16 +33,16 @@ homebrew_installed_packages:
   - git
   - git-flow
   # Development
-  - r
-  - python@3.9
+ ####- r
+ ####- python@3.9
   # Editor
   - vim
   - powerline-go
   # Database
   - sqlite
-  - postgresql@12
+  - postgresql@14
   # Other
-  ####- doxygen
+ ####- doxygen
   - ansible
   - ssh-copy-id
   - pv
@@ -57,29 +57,31 @@ homebrew_cask_apps:
   # Web browser
   - brave-browser
   # Development
-  - fork
-  - intellij-idea
-  - rstudio
+ ####- fork
+ ####- intellij-idea
+ ####- rstudio
   - julia
-  - atom
+ ####- atom
   - visual-studio-code
   # Container
   - docker
   # Editor
-  - mactex
-  #### - sublime-text
+####- mactex
+####- sublime-text
   # Productivity
   - zoom
   - slack
   - skype
-  #### - skype-for-business
+  - discord
+  - skype-for-business
   - teamviewer
-  #### - webex-meetings
+ #### - webex-meetings
   # Trading
   - trader-workstation
   # Other
   - raspberry-pi-imager
   - dropbox
+  - kdrive
   - transmission
   - vlc
   - adobe-acrobat-reader

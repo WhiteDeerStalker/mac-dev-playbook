@@ -50,8 +50,8 @@ homebrew_installed_packages:
   - vim
   - powerline-go
   # Database
-  - sqlite
-  - postgresql@14
+ ####- sqlite
+ ####- postgresql@14
   # Other
  ####- doxygen
   - ansible
@@ -66,33 +66,34 @@ homebrew_taps:
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   # Web browser
-  - brave-browser
+ ####- brave-browser
+  - google-chrome
   # Development
  ####- fork
  ####- intellij-idea
  ####- rstudio
-  - julia
+ ####- julia
  ####- atom
-  - visual-studio-code
+ ####- visual-studio-code
   # Container
-  - docker
+ ####- docker
   # Editor
-####- mactex
-####- sublime-text
+ ####- mactex
+ ####- sublime-text
   # Productivity
   - zoom
-  - slack
+ ####- slack
   - skype
-  - discord
-  - skype-for-business
+ ####- discord
+ ####- skype-for-business
   - teamviewer
  ####- webex-meetings
   # Trading
- ####- trader-workstation (beta version is installed to work best with ARM)
+  - trader-workstation (beta version is installed to work best with ARM)
   # Other
-  - raspberry-pi-imager
+ ####- raspberry-pi-imager
   - dropbox
-  - kdrive
+ ####- kdrive
   - transmission
   - vlc
   - adobe-acrobat-reader
@@ -105,10 +106,8 @@ homebrew_cask_apps:
 # mas ansible role parameters
 ###########################################################
 # See `geerlingguy.mas` role documentation for usage instructions.
-mas_installed_apps:
-  - { id: 468630933, name: "Fireplace Live HD (4.0.2)"}
-  - { id: 580767020, name: "Tower Defense (1.3.6)"}
-mas_email: "ljhuber@me.com"
+mas_installed_apps: []
+mas_email: "fominykhanna@gmail.com"
 mas_password: vars_prompt
 
 osx_script: "~/.osx --no-restart"
